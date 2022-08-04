@@ -200,12 +200,12 @@ padding-top: 130px;
 
 .caja8 h2{
    color: #253A9B;
-    transform: translate(200px, 20px)
+   transform: translate(286px, 20px);
 }
 
 .caja8 p{
 
-    transform: translate(-150px, 10px);
+    padding-right: 139px;
 
 }
 
