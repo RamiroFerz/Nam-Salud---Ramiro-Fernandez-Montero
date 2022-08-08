@@ -14,9 +14,11 @@ header nav{
     border-bottom: outset 3px #121F3D;
 }
 
+
 main form{
     margin: 62px;
 }
+
 
 footer{
     border-top: outset 3px #121F3D;
@@ -24,6 +26,7 @@ footer{
 
 .imagenNombre2{
     padding-top: 15%;
+    padding-left: 12px;
 }
 
 footer div div li a{

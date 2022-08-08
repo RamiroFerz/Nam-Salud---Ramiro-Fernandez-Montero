@@ -4,73 +4,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/stylesC.css">
+    <link rel="stylesheet" href="../css/stylesQsP.css">
     <link
     rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Nam Salud</title>
 </head>
 
 <body>
-    <div class="grid_layout">
-        <div class="caja1">
-           <header>
-            <div class="inicioLogo"><a href="../index.html"><img src="../img/Nam_Salud_ok.png" class=""></a></div>
-            <nav>
-    
-                <ul>
-                   
-                   <li><a href="cartillaMedica.html">CARTILLA MEDICA</a>  </li>
-                   <li><a href="planes.html">PLANES</a>  </li>
-                   <li><a href="quieroSerPrestador.html">QUIERO SER PRESTADOR</a>  </li>
-                   <li><a href="sobreNosotros.html">SOBRE NOSOTROS</a>  </li>
-                   <li><a href="contacto.html">CONTACTO</a>  </li>
-                 
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html"><img src="../img/Nam_Salud_ok.png" ></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">HOME</a>
+                  </li>
+                  <li><a class="nav-link active" href="cartillaMedica.html">CARTILLA MEDICA</a>  </li>
+                   <li><a class="nav-link active" href="planes.html">PLANES</a>  </li>
+                   <li><a class="nav-link active" href="quieroSerPrestador.html">QUIERO SER PRESTADOR</a>  </li>
+                   <li><a class="nav-link active" href="sobreNosotros.html">SOBRE NOSOTROS</a>  </li>
+                   <li><a class="nav-link active" href="contacto.html">CONTACTO</a>
+                  </li>
                 </ul>
-            </nav>
-            <div class="hamburguesa">
-    
-                <a href="" class="hambur2">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </a>
+              </div>
             </div>
-          </header>
-        </div>
-    <div class="caja2">
-<h3 class="animate__animated animate__bounceInLeft">CONTACTO</h3>
+          </nav>
+          </nav>
+    </header>
+    <div class="container-fluid" >
+        <h5 class="animate__animated animate__bounceInLeft">CONTACTO</h5>
     </div>
-        <div class="caja3">
-            <main>
-                <h2>DEJANOS TUS DATOS Y NOS CONTACTAMOS !</h2>
-                 <form>
-                  <label>INGRESE SU NOMBRE</label>
-                  <input type="text" name="NOMBRE" id="">
-                  <br>
-                  <label>EMAIL</label>
-                  <input type="text" name="EMAIL" id="">
-                  <br>
-                  <label>TELEFONO</label>
-                  <input type="text" name="TELEFONO" id="">
-                  <br>
-                  <label>CONTANOS QUE SUCEDE!</label>
-                  <input type="text" name="CONTANOS QUE SUCEDE" id="">
-                  <br>
-                  <input type="submit" name="ENVIAR">
-                  </form>
-                
-           </main>
+<main>
+    <form class="row g-3 needs-validation" novalidate>
+        <div class="col-md-4">
+          <label for="validationCustom01" class="form-label">Ingrese su Nombre</label>
+          <input type="text" class="form-control" id="validationCustom01" value="" required>
         </div>
-    
-        <div class="caja4">
-            <footer>
-               
-                <div class="logo_footer"><a href="index.html" class="inicioLogo"><img src="../img/Nam_Salud_ok.png" class="imagenNombre"></a></div>
-    
-                
-               <div class="container_footer">
-                <h6>MAPA DE SITIO</h6>
+        <div class="col-md-4">
+            <label for="validationCustom01" class="form-label">Email</label>
+            <input type="text" class="form-control" id="validationCustom01" value="" required>
+          </div>
+          <div class="col-md-4">
+            <label for="validationServer02" class="form-label">Telefono</label>
+            <input type="text" class="form-control" id="validationCustom01" value="" required>
+          </div>
+          <div class="col-md-6">
+            <label for="validationServer03" class="form-label">Contanos que sucede</label>
+            <input type="text" class="form-control" id="validationCustom01" value="" required>
+            </select>
+          </div>
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit">Submit form</button>
+        </div>
+      </form>
+</main>
+    <footer style="background-color: #e3f2fd;">
+        <div class="row">
+            <div class="col"><a href="../index.html" class="inicioLogo"><img src="../img/Nam_Salud_ok.png" class="imagenNombre2"></a></div>
+            <div class="col">
+                <h6 class="mapaSitio">MAPA DE SITIO</h6>
                 <ul>
                 <li><a href="cartillaMedica.html">CARTILLA MEDICA</a>  </li>
                 <li><a href="planes.html">PLANES</a>  </li>
@@ -79,17 +78,13 @@
                 <li><a href="contacto.html">CONTACTO</a>  </li>
               
               </ul>
-               </div>
-           </footer>
+            </div>
+            <div class="col"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13391.524270463544!2d-60.6524097!3d-32.9541493!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x93e7aa5460f375c6!2sNam%20Salud!5e0!3m2!1ses-419!2sar!4v1659985081185!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
         </div>
-    
-        <div class="caja5">
-           <div><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13394.11439899811!2d-60.648786376782226!3d-32.93705081272119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1657822658804!5m2!1ses-419!2sar" width="200" height="180" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
-        </div>
-    
-       </div>
-
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
+
 
     
     
