@@ -7,334 +7,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
 
-
-.grid_layout{
-
-    height: 850px;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: 13% 30% auto auto 25%;
-    
-    
-    
+.navbar-nav{
+    padding-top: 47px;
 }
 
-body{
-    background-color: rgb(184, 184, 184);
+header nav{
+    border-bottom: outset 3px #121F3D;
 }
 
-.caja1{
-    border-bottom: outset #121F3D;
-    grid-column: 1/5;
-    display: flex;
-    background-color: white;
-}
-
-.inicioLogo{
-    padding-top: 19px;
-}
-
-header{
-    display: flex;
-}
-
-div nav ul{
-    padding-top: 32px;
-    padding-left: 21px;
-}
-
-div nav li{
-    display: inline-block;
-    text-decoration:solid;
-    font-size: 15px;
-    font-weight: bolder;
-    padding:0 10px;
-    margin-top: 20px;
-    font-family: 'Roboto', sans-serif;
-
-}
-
-div nav{
-    display: flex;
-    align-items: center;
-    
-}
-
-
-div nav li a{
-    text-decoration: none;
-    color: black;
-}
-
-.caja2{
-    
-    grid-column: 1/5;
-    grid-row: 2/4;
-    display: flex;
-    margin: 58px;
-    background-color: aliceblue;
-}
-
-main{
-    text-align: center;
-    display: flex;
-}
 
 .imagenPrincipal{
-    
-    width: 50vw;
-    padding: 20px 21px
+    width: 40vw
 }
 
-p{
-    
-    margin: 10px auto;
-    align-self: center;
-    width: 500px;
-    padding-left: 60px
+
+.cartillaMain{
+    background-color: blue;
 }
 
-.caja5{
-grid-row: 6/7;
-grid-column: 1/2;
-border: solid black;
-height: 200px;
-margin-left: 212px;
-margin-bottom: 100px;
-font-family: 'Roboto', sans-serif;
-width: 300px;
-text-align: center;
-background-color: #253A9B;
-font-size: 20px;
-padding-top: 80px;
-font-weight: bolder;
-transition: all 3s;
-transform: translate(-50px, -80px)
+.imagencon{
+    width: 40vw;
 }
 
-.caja5 a{
-    text-decoration: none;
-    color: aliceblue;
+.imagenNombre2{
+    padding-top: 15%;
 }
 
-.caja5:hover{
-
-    height: 300px;
-    width: 400px;
-    text-align: center;
-    padding-top: 130px;
-    }
-
-.caja6{
-    grid-row: 6/7;
-    grid-column: 2/3;
-    border: solid black;
-    height: 200px;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    width: 312px;
-    background-color: #2542C6;
-    font-size: 20px;
-    padding-top: 80px;
-    font-weight: bolder;
-    transition: all 3s;
-    transform: translate(0px, -80px)
+footer{
+    border-top: outset 3px #121F3D;
 }
 
-.caja6:hover{
-
-height: 300px;
-width: 400px;
-text-align: center;
-padding-top: 130px;
-}
-
-.caja6 a{
-    text-decoration: none;
-    color: aliceblue;
-}
-
-.caja7{
-    grid-row: 6/7;
-    grid-column: 3/4;
-    border: solid black;
-    height: 200px;
-    font-family: 'Roboto', sans-serif;
-    width: 300px;
-    text-align: center;
-    background-color: #1C44F7;
-    font-size: 20px;
-    padding-top: 80px;
-    font-weight: bolder;
-    transition: all 3s;
-    transform: translate(50px, -80px)
-}
-
-.caja7 a{
-    text-decoration: none;
-    color: aliceblue;
-}
-
-.caja7:hover{
-
-    height: 300px;
-    width: 400px;
-    text-align: center;
-    padding-top: 130px;
-    }
-
-.caja8{
-    grid-row: 7/9; 
-     grid-column: 1/5;
-     background-color: aliceblue;
-     height: 360px;
-     display: flex;
-     margin: auto;
-}
-
-.caja8 img{
-    
-    width: 535px;
-    padding: 25px;
-}
-
-.caja8 h2{
-   color: #253A9B;
-   transform: translate(286px, 20px);
-}
-
-.caja8 p{
-
-    padding-right: 139px;
-
-}
-
-.caja3{
-    
-    grid-column: 1/4;
-    grid-row: 9/12;
-    display: flex;
-    border-top: outset #121F3D;
-    margin-top: 100px;
-    background-color: white;
-}
-
-div footer{
-    display: flex;
-    margin-top: 20px;
-}
-
-.imagenNombre{
-    margin-top: 7%;
-}
-
-div footer li{
-    
-    text-decoration:solid;
-    font-size: 15px;
-    font-weight: bolder;
-    padding: 10px;
-    font-family: 'Roboto', sans-serif;
-    list-style: none;
-    
-}
-
-div footer li a{
+footer div div li a{
     text-decoration: none;
     color: black;
 }
 
-div footer ul{
-    column-count: 2;
-    text-align: center;
- }
-
- h6{
-    text-decoration:underline;
-    font-size: 18px;
-    font-weight: bolder;
-    padding: 10px;
-    font-family: 'Roboto', sans-serif;
-    margin-left: 140px;
- }
-
-.container_footer{
-    padding-left: 50px;
-    
+.mapaSitio{
+    padding-top: 54px;
+    padding-left: 140px;
 }
 
-.caja4{
-    grid-column: 4/5 ;
-    grid-row: 9/12;
-    display: flex;
-    justify-content: flex-end;
-    padding-top: 6px;
-    padding-right: 9px;
-    border-top: outset #121F3D;
-    margin-top: 100px;
-    background-color: white;
+footer div div ul{
+    padding-top: 7px;
+    padding-left: 140px;
 }
 
-
-@media screen and (max-width: 600px){
-
-    
-
-    header nav{
-        display: none;
-       }
-       
-       .hambur2 span{
-           background-color: black;
-           width: 20px;
-           height: 2px;
-           
-       }
-       
-    p{
-        width: 842px;
-        margin: 25px auto;
-        margin-bottom: 68px;
-        font-size: 33px;
-    }
-
-   .imagenPrincipal{
-    width: 156vh;
-   }
-
- header div{
-    margin-left: 38%;
-    margin-top: 22px;
-       
- }
-footer ul{
-    display: none;
+iframe{
+    height: 36vh;
+    width: 20vw;
+    margin-top: 13px;
+    margin-left: 97px;
 }
-
-h6{
-    display: none;
-}
-
-.caja3{
-    grid-column: 1/5;
-}
-
-footer div{
-        margin-left: 38%;
-        
-}
-
-.imagenNombre{
-    margin-top: 1%;
-}
-
-.caja4{
-    grid-column: 1/5;
-    border-top: none;
-    margin: 0 auto;
-}
-
-}
-
-
-

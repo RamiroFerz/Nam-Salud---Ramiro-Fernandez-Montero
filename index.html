@@ -9,69 +9,66 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Nam Salud</title>
 </head>
-
 <body>
-   <div class="grid_layout">
-    <div class="caja1">
-       <header>
-        <div class="inicioLogo" ><a href="index.html"><img src="./img/Nam_Salud_ok.png" ></a></div>
-        <nav>
-
-            <ul>
-               
-               <li><a href="./pages/cartillaMedica.html">CARTILLA MEDICA</a>  </li>
-               <li><a href="./pages/planes.html">PLANES</a>  </li>
-               <li><a href="./pages/quieroSerPrestador.html">QUIERO SER PRESTADOR</a>  </li>
-               <li><a href="./pages/sobreNosotros.html">SOBRE NOSOTROS</a>  </li>
-               <li><a href="./pages/contacto.html">CONTACTO</a>  </li>
-             
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img src="./img/Nam_Salud_ok.png" ></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+              </li>
+              <li><a class="nav-link active" href="./pages/cartillaMedica.html">CARTILLA MEDICA</a>  </li>
+               <li><a class="nav-link active" href="./pages/planes.html">PLANES</a>  </li>
+               <li><a class="nav-link active" href="./pages/quieroSerPrestador.html">QUIERO SER PRESTADOR</a>  </li>
+               <li><a class="nav-link active" href="./pages/sobreNosotros.html">SOBRE NOSOTROS</a>  </li>
+               <li><a class="nav-link active" href="./pages/contacto.html">CONTACTO</a>
+              </li>
             </ul>
-        </nav>
-        <div class="hamburguesa">
-
-            <a href="" class="hambur2">
-                <span></span>
-                <span></span>
-                <span></span>
-            </a>
+          </div>
         </div>
-      </header>
-    </div>
-
-    <div class="caja2">
-        <main>
-        
-            <img src="./img/Sin título.png" class="imagenPrincipal">
+      </nav>
+      </nav>
+</header>
+<main>
+    <div class="container-lg row">
+       <div class="col"> <img src="./img/Sin título.png" class="imagenPrincipal"></div>
             
-            <p class="animate__animated animate__backInRight">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ipsum, perferendis dolore architecto tempora deserunt non mollitia modi, obcaecati perspiciatis est temporibus asperiores. Iusto iure totam, atque placeat corporis alias!</p>
-      
-       </main>
+            <div class="col"><p class="animate__animated animate__backInRight">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ipsum, perferendis dolore architecto tempora deserunt non mollitia modi, obcaecati perspiciatis est temporibus asperiores. Iusto iure totam, atque placeat corporis alias!</p></div>
     </div>
-    <div class="caja5">
-    <a href="./pages/cartillaMedica.html">CARTILLA MEDICA</a>
-    </div>
-    <div class="caja6">
-        <a href="./pages/quieroSerPrestador.html">QUIERO SER PRESTADOR</a>
-    </div>
-    <div class="caja7">
-        <a href="./pages/planes.html">PLANES</a>
-    </div>
-    <div class="caja8">
-        <h2>Canales de atención</h2>
-       <p class="animate__animated animate__backInLeft">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore numquam magni soluta a harum quas, tenetur repudiandae tempora.</p>
 
-       <img src="./img/service-g4520c4cb4_1280.jpg" >
+    <div class="row justify-content-center bloquesMain">
+        <div class="col-3 cartillaMain" >
+            <a href="./pages/cartillaMedica.html">CARTILLA MEDICA</a>
+        </div>
+        <div class="col-3">
+            <a href="./pages/quieroSerPrestador.html">QUIERO SER PRESTADOR</a>
+        </div>
+        <div class="col-3">
+            <a href="./pages/planes.html">PLANES</a>
+        </div>
     </div>
-    <div class="caja3">
-        <footer>
-           
-            <div class="logo_footer"><a href="index.html" class="inicioLogo"><img src="./img/Nam_Salud_ok.png" class="imagenNombre"></a></div>
 
-            
-           <div class="container_footer">
-            <h6>MAPA DE SITIO</h6>
+    <div class="row ">
+       <div class="col"> <h2>Canales de atención</h2>
+       <p class=" animate__animated animate__backInLeft">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore numquam magni soluta a harum quas, tenetur repudiandae tempora.</p></div>
+
+       <div class="col"><img class="imagencon" src="./img/service-g4520c4cb4_1280.jpg" ></div>
+    </div>
+</main>
+
+<footer style="background-color: #e3f2fd;">
+    <div class="row">
+        <div class="col"><a href="index.html" class="inicioLogo"><img src="./img/Nam_Salud_ok.png" class="imagenNombre2"></a></div>
+        <div class="col">
+            <h6 class="mapaSitio">MAPA DE SITIO</h6>
             <ul>
             <li><a href="./pages/cartillaMedica.html">CARTILLA MEDICA</a>  </li>
             <li><a href="./pages/planes.html">PLANES</a>  </li>
@@ -80,13 +77,12 @@
             <li><a href="./pages/contacto.html">CONTACTO</a>  </li>
           
           </ul>
-           </div>
-       </footer>
+        </div>
+        <div class="col"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13391.524270463544!2d-60.6524097!3d-32.9541493!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x93e7aa5460f375c6!2sNam%20Salud!5e0!3m2!1ses-419!2sar!4v1659985081185!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
     </div>
+</footer>
 
-    <div class="caja4">
-       <div><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13394.11439899811!2d-60.648786376782226!3d-32.93705081272119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1657822658804!5m2!1ses-419!2sar" width="200" height="180" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
-    </div>
 
-   </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
 </body>
