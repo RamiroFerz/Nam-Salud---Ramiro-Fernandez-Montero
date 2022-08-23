@@ -1,9 +1,13 @@
+
+
 *{
     margin:0;
     padding: 0;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+
 
 
 
@@ -22,29 +26,26 @@
       }
 
       .caja1{
-        height: 13vw;
-         width: 20vw;
+        height: map-get($ancho, 13 );
+         width: map-get($ancho, 20 );
          padding-top: 34px;
     }
 
     .caja2{
-        height: 13vw;
-         width: 20vw;
-         padding-top: 34px;
+        @extend .caja1;
+
     }
 
     .caja3{
-        height: 13vw;
-         width: 20vw;
-         padding-top: 34px;
+         @extend .caja1;
     }
 
     .imagenPrincipal{
-         width: 40vw;
+         width: map-get($ancho, 40 );
     }
 
     .imagencon{
-        width: 40vw;
+        width:map-get($ancho, 40 );
     }
     
     
@@ -59,8 +60,8 @@
     
     
     iframe{
-        height: 20vw;
-        width: 20vw;
+        height:map-get($ancho, 20 );
+        width: map-get($ancho, 20 );
         float: right;
 
     }
@@ -68,6 +69,7 @@
     p{
         text-align: $alineacion-texto;
     }
+
 }
 
 
@@ -87,22 +89,15 @@
       }
 
       .caja1{
-        height: 13vw;
-         width: 20vw;
-         
-         padding-top: 69px;
+        @include height-width-padding
     }
 
     .caja2{
-        height: 13vw;
-         width: 20vw;
-         padding-top: 69px;
+        @include height-width-padding
     }
 
     .caja3{
-        height: 13vw;
-         width: 20vw;
-         padding-top: 69px;
+        @include height-width-padding
          
     }
 
