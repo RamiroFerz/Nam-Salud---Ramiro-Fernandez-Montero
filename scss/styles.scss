@@ -1,3 +1,5 @@
+@import "variables.scss";
+@import "mixins.scss";
 
 
 *{
@@ -9,9 +11,7 @@
 
 
 
-
-
-@media screen and (min-width:1200px){
+@media screen and (min-width:1200px){   
 
     .navbar-nav{
         padding-top: 47px;
@@ -20,30 +20,30 @@
     header nav{
         border-bottom: $borde;
     }
-
+    
     h2{
         text-align: $alineacion-texto;
       }
-
+    
       .caja1{
         height: map-get($ancho, 13 );
          width: map-get($ancho, 20 );
          padding-top: 34px;
     }
-
+    
     .caja2{
         @extend .caja1;
-
+    
     }
-
+    
     .caja3{
          @extend .caja1;
     }
-
+    
     .imagenPrincipal{
          width: map-get($ancho, 40 );
     }
-
+    
     .imagencon{
         width:map-get($ancho, 40 );
     }
@@ -58,19 +58,24 @@
         color: black;
     }
     
+    footer div .mapaSitio{
+        margin-right: -75px;
+    }
     
     iframe{
         height:map-get($ancho, 20 );
         width: map-get($ancho, 20 );
         float: right;
-
+    
     }
-
+    
     p{
         text-align: $alineacion-texto;
     }
-
-}
+    
+    }
+    
+    
 
 
 
@@ -342,3 +347,4 @@
     }
 
 }
+

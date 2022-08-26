@@ -6,48 +6,317 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
-.navbar-nav{
-    padding-top: 47px;
+@media screen and (min-width:1200px){
+
+    .navbar-nav{
+        padding-top: 47px;
+    }
+    
+    header nav{
+        border-bottom: outset 3px #121F3D;
+    }
+
+   
+    footer{
+        border-top: outset 3px #121F3D;
+    }
+    
+    .contenedorLogoFooter{
+        
+        padding-top: 112px;
+    }
+
+    footer div div li a{
+        text-decoration: none;
+        color: black;
+    }
+    
+   
+    
+    .asociate{
+        padding-top: 45px;
+    }
+
+
+    iframe{
+
+        width: 230px !important;
+        height: 230px !important;
+        margin-top: -50px !important;
+        margin-right: 32px !important;
+        float: right;
+
+    }
+
+    .ig{
+        font-size: 30px;
+        color: blueviolet;
+       }
+      
+       .fb{
+        font-size: 30px;
+        color: blue;
+       }
+  
+       .wpp{
+        font-size: 30px;
+        color: green;
+          }
+
+    p{
+        text-align: center;
+    }
+    .iconosFooter{
+        display: flex;
+        list-style: none;
+    }
+
+    .seguinosFooter{
+        padding-left: 670px !important;
+    }
+
+    .mapa1{
+        padding-top: 45px;
+    }
 }
 
-header nav{
-    border-bottom: outset 3px #121F3D;
+
+
+@media screen and (min-width:992px){
+
+    .navbar-nav{
+        padding-top: 47px;
+    }
+    
+    header nav{
+        border-bottom: outset 3px #121F3D;
+    }
+
+    
+    
+    
+    footer{
+        border-top: outset 3px #121F3D;
+    }
+    
+    footer div div li a{
+        text-decoration: none;
+        color: black;
+    }
+    
+    
+    iframe{
+        height: 20vw;
+        width: 20vw;
+        float: right;
+    }
+
+    .iconosFooter{
+        display: flex;
+        list-style: none;
+    }
+
+    .ig{
+        font-size: 30px;
+        color: blueviolet;
+       }
+      
+       .fb{
+        font-size: 30px;
+        color: blue;
+       }
+  
+       .wpp{
+        font-size: 30px;
+        color: green;
+          }
+    p{
+        text-align: center;
+    }
+}
+    
+@media screen and (min-width:768px) and (max-width:992px){
+
+    .navbar-nav{
+        padding-top: 47px;
+    }
+    
+    header nav{
+        border-bottom: outset 3px #121F3D;
+    }
+    
+   
+    .grilla1,
+   .grilla2,
+   .grilla3{
+    width: 47% !important;
+   }
+   
+    
+    footer{
+        border-top: outset 3px #121F3D;
+    }
+    
+    footer div div li a{
+        text-decoration: none;
+        color: black;
+    }
+    
+   
+    
+    iframe{
+        height: 30vh;
+        width: 30vw;
+        
+        
+    }
+.iconosFooter{
+        display: flex;
+        list-style: none;
+    }
+    
+    .ig{
+        font-size: 30px;
+        color: blueviolet;
+       }
+      
+       .fb{
+        font-size: 30px;
+        color: blue;
+       }
+  
+       .wpp{
+        font-size: 30px;
+        color: green;
+          }
+    p{
+        text-align: center;
+    }
 }
 
+@media screen and (min-width:576px) and (max-width:768px) {
+    .navbar-nav{
+        padding-top: 47px;
+    }
+    
+    header nav{
+        border-bottom: outset 3px #121F3D;
+    }
+    
+   
+    .imagenNombre1{
+        width: 90vw;
+    }
 
-main form{
-    margin: 62px;
+   .grilla1,
+   .grilla2,
+   .grilla3{
+    width: 47% !important;
+   }
+
+
+    footer{
+        border-top: outset 3px #121F3D;
+    }
+    
+    footer div div li a{
+        text-decoration: none;
+        color: black;
+    }
+    
+    
+    footer div div ul{
+        padding-top: 7px;
+        padding-left: 140px;
+    }
+    
+    .imagenNombre2{
+        width: 90vw;
+    }
+
+    iframe{
+        height: 36vh;
+        width: 50vw;
+        
+           
+    }
+    .iconosFooter{
+        display: flex;
+        list-style: none;
+    }
+    
+    .ig{
+        font-size: 30px;
+        color: blueviolet;
+       }
+      
+       .fb{
+        font-size: 30px;
+        color: blue;
+       }
+  
+       .wpp{
+        font-size: 30px;
+        color: green;
+          }
+    p{
+        text-align: center;
+    }
 }
 
-footer{
-    border-top: outset 3px #121F3D;
-}
+@media screen and (max-width:576px){
 
-.imagenNombre2{
-    padding-top: 15%;
-    padding-left: 12px;
-}
+    .navbar-nav{
+        padding-top: 47px;
+    }
+    
+    .imagenNombre1{
+        width: 90vw;
+    }
 
-footer div div li a{
-    text-decoration: none;
-    color: black;
-}
+    
+    footer{
+        border-top: outset 3px #121F3D;
+    }
+    
+    footer div div li a{
+        text-decoration: none;
+        color: black;
+    }
+    
+    .imagenNombre2{
+        width: 90vw;
+    }
 
-.mapaSitio{
-    padding-top: 54px;
-    padding-left: 140px;
-}
+    iframe{
+        height: 36vh;
+        
+    }
+    .mapa1{
+    overflow: hidden;
+    }
+    .iconosFooter{
+        display: flex;
+        list-style: none;
+    }
+    
+    .ig{
+        font-size: 30px;
+        color: blueviolet;
+       }
+      
+       .fb{
+        font-size: 30px;
+        color: blue;
+       }
+  
+       .wpp{
+        font-size: 30px;
+        color: green;
+          }
+    p{
+        text-align: center;
+    }
 
-footer div div ul{
-    padding-top: 7px;
-    padding-left: 140px;
-}
-
-iframe{
-    height: 36vh;
-    width: 20vw;
-    margin-top: 13px;
-    margin-left: 97px;
 }

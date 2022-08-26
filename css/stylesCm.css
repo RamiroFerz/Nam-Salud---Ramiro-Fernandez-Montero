@@ -18,26 +18,72 @@
     }
 
    
-
     footer{
         border-top: outset 3px #121F3D;
     }
     
+    .contenedorLogoFooter{
+        
+        padding-top: 112px;
+    }
+
     footer div div li a{
         text-decoration: none;
         color: black;
     }
     
+    .mapaSitio{
+        padding-top: 45px;
+        margin-left: -70px;
+        margin-right: 70px;
+    }
     
+    .asociate{
+        padding-top: 45px;
+    }
+
+
     iframe{
-        height: 20vw;
-        width: 20vw;
+
+        width: 230px !important;
+        height: 230px !important;
+        margin-top: -50px !important;
+        margin-right: 32px !important;
         float: right;
 
     }
 
+    .ig{
+        font-size: 30px;
+        color: blueviolet;
+       }
+      
+       .fb{
+        font-size: 30px;
+        color: blue;
+       }
+  
+       .wpp{
+        font-size: 30px;
+        color: green;
+          }
+
     p{
         text-align: center;
+    }
+    .iconosFooter{
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        margin-right: 22px;
+    }
+
+    .seguinosFooter{
+        padding-left: 670px !important;
+    }
+
+    .mapa1{
+        padding-top: 45px;
     }
 }
 
@@ -72,6 +118,27 @@
         float: right;
     }
 
+    .iconosFooter{
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        margin-right: 22px;
+    }
+
+    .ig{
+        font-size: 30px;
+        color: blueviolet;
+       }
+      
+       .fb{
+        font-size: 30px;
+        color: blue;
+       }
+  
+       .wpp{
+        font-size: 30px;
+        color: green;
+          }
     p{
         text-align: center;
     }
@@ -109,9 +176,30 @@
     iframe{
         height: 30vh;
         width: 30vw;
+        margin-left: 280px;
         
     }
-
+.iconosFooter{
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        margin-right: 22px;
+    }
+    
+    .ig{
+        font-size: 30px;
+        color: blueviolet;
+       }
+      
+       .fb{
+        font-size: 30px;
+        color: blue;
+       }
+  
+       .wpp{
+        font-size: 30px;
+        color: green;
+          }
     p{
         text-align: center;
     }
@@ -160,9 +248,30 @@
     iframe{
         height: 36vh;
         width: 50vw;
-       
+        margin-left: 166px;
+           
     }
-
+    .iconosFooter{
+        display: flex;
+        list-style: none;
+        height: 36vh;
+        width: 92vw;
+    }
+    
+    .ig{
+        font-size: 30px;
+        color: blueviolet;
+       }
+      
+       .fb{
+        font-size: 30px;
+        color: blue;
+       }
+  
+       .wpp{
+        font-size: 30px;
+        color: green;
+          }
     p{
         text-align: center;
     }
@@ -194,12 +303,38 @@
 
     iframe{
         height: 36vh;
+      width: 92vw;
         
     }
     .mapa1{
     overflow: hidden;
     }
-
+    .seguinosFooter{
+        margin-left: 164px;
+    }
+    .seguinosFooter1{
+    padding-left: 24px;
+    }
+    .iconosFooter{
+        display: flex;
+        list-style: none;
+        
+    }
+    
+    .ig{
+        font-size: 30px;
+        color: blueviolet;
+       }
+      
+       .fb{
+        font-size: 30px;
+        color: blue;
+       }
+  
+       .wpp{
+        font-size: 30px;
+        color: green;
+          }
     p{
         text-align: center;
     }
