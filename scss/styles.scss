@@ -2,349 +2,367 @@
 @import "mixins.scss";
 
 
-*{
-    margin:0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0; }
+
+h2{
+  font-family: 'Roboto', sans-serif;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
-
-
-
-@media screen and (min-width:1200px){   
-
-    .navbar-nav{
-        padding-top: 47px;
-    }
-    
-    header nav{
-        border-bottom: $borde;
-    }
-    
-    h2{
-        text-align: $alineacion-texto;
-      }
-    
-      .caja1{
-        height: map-get($ancho, 13 );
-         width: map-get($ancho, 20 );
-         padding-top: 34px;
-    }
-    
-    .caja2{
-        @extend .caja1;
-    
-    }
-    
-    .caja3{
-         @extend .caja1;
-    }
-    
-    .imagenPrincipal{
-         width: map-get($ancho, 40 );
-    }
-    
-    .imagencon{
-        width:map-get($ancho, 40 );
-    }
-    
-    
-    footer{
-        border-top: $borde;
-    }
-    
-    footer div div li a{
-        text-decoration: none;
-        color: black;
-    }
-    
-    footer div .mapaSitio{
-        margin-right: -75px;
-    }
-    
-    iframe{
-        height:map-get($ancho, 20 );
-        width: map-get($ancho, 20 );
-        float: right;
-    
-    }
-    
-    p{
-        text-align: $alineacion-texto;
-    }
-    
-    }
-    
-    
-
-
-
-@media screen and (min-width:992px){
-
-    .navbar-nav{
-        padding-top: 47px;
-    }
-    
-    header nav{
-        border-bottom: $borde;
-    }
-
-    h2{
-        text-align: $alineacion-texto;
-      }
-
-      .caja1{
-        @include height-width-padding
-    }
-
-    .caja2{
-        @include height-width-padding
-    }
-
-    .caja3{
-        @include height-width-padding
-         
-    }
-
-    .imagenPrincipal{
-         width: 40vw;
-    }
-
-    .imagencon{
-        width: 40vw;
-    }
-    
-    
-    footer{
-        border-top: $borde;
-    }
-    
-    footer div div li a{
-        text-decoration: none;
-        color: black;
-    }
-    
-    
-    iframe{
-        height: 20vw;
-        width: 20vw;
-        float: right;
-    }
-
-    p{
-        text-align: center;
-    }
+.caja1 a{
+  text-decoration: none;
 }
-    
-@media screen and (min-width:768px) and (max-width:992px){
-
-    .navbar-nav{
-        padding-top: 47px;
-    }
-    
-    header nav{
-        border-bottom: $borde;
-    }
-    
-    h2{
-        text-align: center;
+.caja2 a{
+  text-decoration: none;
+}
+.caja3 a{
+  text-decoration: none;
+}
+  @media screen and (min-width: 1200px) {
+    .navbar-nav {
+      padding-top: 47px; }
+    header nav {
+      border-bottom: outset 3px #121F3D; }
+    h2 {
+      text-align: center;
+       }
+    .caja1 {
+      height: 13vw;
+      width: 20vw;
+      padding-top: 34px; }
+      .caja1 a, .caja2 a, .caja3 a{
+        justify-content: center;
+        display: flex;
       }
+    .caja2 {
+      height: 13vw;
+      width: 20vw;
+      padding-top: 34px; }
 
+    .caja3 {
+      height: 13vw;
+      width: 20vw;
+      padding-top: 34px; }
+    .imagenPrincipal {
+      width: 40vw; }
+    .imagencon {
+      width: 40vw; }
+    footer {
+      border-top: outset 3px #121F3D; }
+
+      .contenedorLogoFooter{
+        padding-top: 112px;
+        
+      }
+    footer div div li a {
+      text-decoration: none;
+      color: black; }
+    
+    
+      iframe {
+        width: 230px !important;
+        height: 230px !important;
+        margin-top: -50px !important;
+        margin-right: 32px !important;
+      float: right;
+      
+    }
+
+    .mapaSitio{
+      padding-top: 45px;
+      margin-left: -70px;
+      margin-right: 70px;
+  }
+  
+  .asociate{
+      padding-top: 45px;
+  }
+
+    p {
+      text-align: center; }
+    
+
+      .iconosFooter{
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        margin-right: 22px;
+
+
+    }
+
+    .seguinosFooter{
+      padding-left: 670px !important;
+  }
+
+  .mapa1{
+      padding-top: 45px;
+  }
+
+     .ig{
+      font-size: 30px;
+      color: blueviolet;
+     }
+    
+     .fb{
+      font-size: 30px;
+      color: blue;
+     }
+
+     .wpp{
+      font-size: 30px;
+      color: green;
+     }
+
+    }
+  
+  @media screen and (min-width: 992px) {
+    .navbar-nav {
+      padding-top: 47px; }
+    header nav {
+      border-bottom: outset 3px #121F3D; }
+    h2 {
+      text-align: center; }
+
+      .caja1 a, .caja2 a, .caja3 a{
+        justify-content: center;
+        display: flex;
+      }
+    .caja1 {
+      height: 13vw;
+      width: 20vw;
+      padding-top: 69px; }
+    .caja2 {
+      height: 13vw;
+      width: 20vw;
+      padding-top: 69px; }
+    .caja3 {
+      height: 13vw;
+      width: 20vw;
+      padding-top: 69px; }
+    .imagenPrincipal {
+      width: 40vw; }
+    .imagencon {
+      width: 40vw; }
+    footer {
+      border-top: outset 3px #121F3D; }
+    footer div div li a {
+      text-decoration: none;
+      color: black; }
+    iframe {
+      height: 20vw;
+      width: 20vw;
+      float: right; }
+      .iconosFooter{
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        margin-right: 22px;
+    }
+
+    .ig{
+        font-size: 30px;
+        color: blueviolet;
+       }
+      
+       .fb{
+        font-size: 30px;
+        color: blue;
+       }
+  
+       .wpp{
+        font-size: 30px;
+        color: green;
+          }
+
+    p {
+      text-align: center; } }
+  
+  @media screen and (min-width: 768px) and (max-width: 992px) {
+    .navbar-nav {
+      padding-top: 47px; }
+    header nav {
+      border-bottom: outset 3px #121F3D; }
+    h2 {
+      text-align: center; }
+      .caja1 a, .caja2 a, .caja3 a{
+        justify-content: center;
+        display: flex;
+      }
     .caja1,
     .caja2,
-    .caja3{
-        height: 13vw;
-         width: 20vw;
-         padding-top: 69px;
-    }
-
-
-    .imagenPrincipal{
-        width: 40vw;
-   }
-
-    .imagencon{
-        width: 40vw;
-    }
-    
-   
-    
-    footer{
-        border-top: $borde;
-    }
-    
-    footer div div li a{
-        text-decoration: none;
-        color: black;
+    .caja3 {
+      height: 13vw;
+      width: 20vw;
+      padding-top: 54px; }
+    .imagenPrincipal {
+      width: 40vw; }
+    .imagencon {
+      width: 40vw; }
+    footer {
+      border-top: outset 3px #121F3D; }
+    footer div div li a {
+      text-decoration: none;
+      color: black; }
+    iframe {
+      height: 30vh;
+      width: 40vw;
+      margin-left: 280px; }
+      .iconosFooter{
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        margin-right: 22px;
     }
     
-   
-    
-    iframe{
-        height: 30vh;
-        width: 30vw;
-        
-    }
-
-    p{
-        text-align: center;
-    }
-
-}
-
-@media screen and (min-width:576px) and (max-width:768px) {
-    .navbar-nav{
-        padding-top: 47px;
-    }
-    
-    header nav{
-        border-bottom: $borde;
-    }
-    
-    h2{
-        text-align: center;
-      }
-
-    .imagenPrincipal{
-        width: inherit;
-   }
-
-    .caja1{
-        height: 13vw;
-         width: inherit;
-         text-align: center;
-         padding-top: 34px;
-         
-    }
-
-    .caja2{
-        height: 13vw;
-        width: inherit;
-        text-align: center;
-        margin-top: 10px !important;
-        margin-bottom: 10px;
-        padding-top: 34px;
-    }
-
-    .caja3{
-        height: 13vw;
-        width: inherit;
-        text-align: center;
-        padding-top: 34px;
-    }
-
-
-    .textocontacto{
-    width: 70vw;
-   }
-
-    .imagencon{
-        width: inherit;
-        
-    }
-    
-   
-    footer{
-        border-top: $borde;
+    .ig{
+        font-size: 30px;
+        color: blueviolet;
+       }
+      
+       .fb{
+        font-size: 30px;
+        color: blue;
+       }
+  
+       .wpp{
+        font-size: 30px;
+        color: green;
+          }
+    p {
+      text-align: center; } }
+  
+  @media screen and (min-width: 576px) and (max-width: 768px) {
+    .navbar-nav {
+      padding-top: 47px; }
+    header nav {
+      border-bottom: outset 3px #121F3D; }
+    h2 {
+      text-align: center; }
+    .imagenPrincipal {
+      width: inherit; }
+    .caja1 {
+      height: 13vw;
+      width: inherit;
+      text-align: center;
+      padding-top: 34px; }
+    .caja2 {
+      height: 13vw;
+      width: inherit;
+      text-align: center;
+      margin-top: 10px !important;
+      margin-bottom: 10px;
+      padding-top: 34px; }
+    .caja3 {
+      height: 13vw;
+      width: inherit;
+      text-align: center;
+      padding-top: 34px; }
+    .textocontacto {
+      width: 70vw; }
+    .imagencon {
+      width: inherit; }
+    footer {
+      border-top: outset 3px #121F3D; }
+    footer div div li a {
+      text-decoration: none;
+      color: black; }
+    footer div div ul {
+      padding-top: 7px;
+      padding-left: 140px; }
+    iframe {
+      height: 36vh;
+      width: 50vw;
+      margin-left: 166px; }
+      .iconosFooter{
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        margin-right: 137px;
     }
     
-    footer div div li a{
-        text-decoration: none;
-        color: black;
+    .ig{
+        font-size: 30px;
+        color: blueviolet;
+       }
+      
+       .fb{
+        font-size: 30px;
+        color: blue;
+       }
+  
+       .wpp{
+        font-size: 30px;
+        color: green;
+          }
+    p {
+      text-align: center; } }
+  
+  @media screen and (max-width: 576px) {
+    .navbar-nav {
+      padding-top: 47px; }
+    h2 {
+      text-align: center; }
+    header nav {
+      border-bottom: outset 3px #121F3D; }
+    .imagenNombre1 {
+      width: 90vw; }
+    .imagenPrincipal {
+      width: inherit; }
+    .caja1 {
+      height: 13vw;
+      width: inherit;
+      text-align: center;
+      padding-top: 18px; }
+    .caja2 {
+      height: 13vw;
+      width: inherit;
+      text-align: center;
+      margin-top: 10px !important;
+      margin-bottom: 10px;
+      padding-top: 18px; }
+    .caja3 {
+      height: 13vw;
+      width: inherit;
+      text-align: center;
+      padding-top: 18px; }
+    .imagencon {
+      width: inherit; }
+    .imagenNombre2 {
+      width: 90vw; }
+    footer {
+      border-top: outset 3px #121F3D; }
+    footer div div li a {
+      text-decoration: none;
+      color: black; }
+    iframe {
+      height: 36vh;
+      width: 92vw;
+    } 
+    .mapa1 {
+      overflow: hidden; }
+      .iconosFooter{
+        display: flex;
+        list-style: none;
+        justify-content: center;
     }
     
-    
-    footer div div ul{
-        padding-top: 7px;
-        padding-left: 140px;
-    }
-    
-    iframe{
-        height: 36vh;
-        width: 50vw;
-       
-    }
+    .ig{
+        font-size: 30px;
+        color: blueviolet;
+       }
+      
+       .fb{
+        font-size: 30px;
+        color: blue;
+       }
+  
+       .wpp{
+        font-size: 30px;
+        color: green;
+          }
+    p {
+      text-align: center; } }
 
-    p{
-        text-align: center;
-    }
-
-}
-
-@media screen and (max-width:576px){
-
-    .navbar-nav{
-        padding-top: 47px;
-    }
-    
-   h2{
-     text-align: center;
-   }
-
-    header nav{
-        border-bottom: $borde;
-    }
-    .imagenNombre1{
-        width: 90vw;
-    }
-
-    .imagenPrincipal{
-        width: inherit;
-   }
-
-   .caja1{
-    height: 13vw;
-     width: inherit;
-     text-align: center;
-     padding-top: 34px;
-     
-}
-
-.caja2{
-    height: 13vw;
-    width: inherit;
-    text-align: center;
-    margin-top: 10px !important;
-    margin-bottom: 10px;
-    padding-top: 34px;
-}
-
-.caja3{
-    height: 13vw;
-    width: inherit;
-    text-align: center;
-    padding-top: 34px;
-}
-
-    .imagencon{
-        width: inherit;
-    }
-    
-    .imagenNombre2{
-        width: 90vw;
-    }
-    
-    footer{
-        border-top: $borde;
-    }
-    
-    footer div div li a{
-        text-decoration: none;
-        color: black;
-    }
-    
-    
-    iframe{
-        height: 36vh;
-        
-    }
-    .mapa1{
-    overflow: hidden;
-    }
-
-    p{
-        text-align: center;
-    }
-
-}
+      
 

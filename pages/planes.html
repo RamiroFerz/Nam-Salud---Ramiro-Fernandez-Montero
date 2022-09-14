@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Obra social , salud , nam salud">
     <meta name="keywords" content ="gerenciadora, sanatorio, cartilla medica, planes de salud, prestaciones">
-    <link rel="stylesheet" href="../css/stylesQsP.css">
+    <link rel="stylesheet" href="../css/stylesP.css">
+    <link rel="icon" href="../img/Nam_Salud_ok1.ico">
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
@@ -20,7 +21,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
             <div class="container-fluid">
-              <a class="navbar-brand" href="../index.html"><img src="../img/Nam_Salud_ok.png" alt="Imagen nombre" ></a>
+              <a class="navbar-brand" href="../index.html"><img src="../img/Nam_Salud_ok.png" class= "imagenNombre1"alt="Imagen nombre" ></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -40,35 +41,37 @@
             </div>
           </nav>
     </header>
-    <div class="container-fluid bg-primary" style="height: 60px">
-<h5 class="animate__animated animate__bounceInLeft">PLANES</h5>
+    <div class="container-fluid bg-primary gradiente" style="height: 60px">
+<h5 class="animate__animated animate__bounceInLeft planesTitulo">PLANES</h5>
     </div>
-    <div class="container-sm bg-warning rounded border  mt-3 " style="width:1000px">
-    <section class="mx-auto" style="width: 400px;">
+    <div class="row">
+    <div class="container-sm bg-warning rounded border  mt-3 mb-3 plan1 col-lg-4" >
+    <section class="seccionGold" >
         <img src="../img/gold.png" class="planGold ps-7" id="imagenCredencial" style="width: 250px;" alt=" Imagen credencial gold">
         <h4 class="ps-5">PLAN GOLD</h4>
         <br>
-        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora recusandae saepe sequi repudiandae obcaecati, corrupti laborum non neque voluptatem, a voluptatibus. Cumque, eveniet. Quia debitis nesciunt ullam nemo nobis explicabo!</P>
+        <P>El plan Gold incluye los servicios necesarios para la atencion del afiliado, emergencias e internacion. Se pueden realizar teleconsultas con un medico particular o llamarlo para su atencion domiciliaria sin costo alguno. Las hospitalizaciones se encuentran contratadas en habitacion privada, sin necesidad de pagar coseguros y una buena atencion para la recuperacion. Tambien incluye una cirugia estetica por año pago. </P>
             </section>
         </div>
             <br>
-            <div class="container-sm bg-primary rounded border" style="width:1000px">
-            <section class="mx-auto " style="width: 400px;">
+            <div class="container-sm bg-primary rounded border plan2 col-lg-4 mb-3 mt-3" >
+            <section class=" seccionPlatino ">
                 <img src="../img/Sin título-111 platino.png" class="planPlatino" style="width: 250px;" id="imagenCredencial" alt=" Imagen credencial Platino">
                 <h4 class="ps-5">PLAN PLATINO</h4>
                 <br>
-                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt perspiciatis ipsam dignissimos explicabo earum mollitia minima dolor ex animi facere quod voluptatum, distinctio quas numquam. Libero aperiam architecto exercitationem animi!</P>
+                <P>El plan Platino incluye los servicios necesarios para la atencion del afiliado, emergencias e internacion. Se pueden realizar teleconsultas con un medico particular que tenemos en la obra social. Las hospitalizaciones se encuentran contratadas en habitacion privada, coseguros bajos y una buena atencion para la recuperacion.</P>
             </section>
         </div>
             <br>
-            <div class="container-sm bg-success rounded border" style="width:1000px">
-            <section class="mx-auto ps-3" style="width: 400px;">
-                <img src="../img/Sin título-11 phbron.png" class="planBronce" id="imagenCredencial" style="width: 250px;" alt=" Imagen credencial Bronce">
+            <div class="container-sm bg-success rounded border plan3 col-lg-4 mb-3 mt-3" >
+            <section class="seccionBronce" >
+                <img src="../img/Sin título-11 phbron.png" class="planBronce" id="imagenCredencial" style="width: 200px;" alt=" Imagen credencial Bronce">
                 <h4 class="ps-5">PLAN BRONCE</h4>
                 <br>
-                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis inventore a, repellat optio eaque reiciendis odit quos quo eos ipsam vitae dolorum commodi adipisci id neque ipsum nesciunt laudantium excepturi!</P>
+                <P>El plan Bronce incluye todos los servicios necesarios para la atencion del afiliado, emergencias e internacion. Las hospitalizaciones se encuentran contratadas en habitacion compartida, con coseguros bajos y una buena atencion para la recuperacion.</P>
             </section>
         </div>
+      </div>
 
         
         <footer style="background-color: #e3f2fd;">
@@ -119,9 +122,10 @@
             </div>
           </div>
         </footer>
+        
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-</body>
-
+        
+        </body>
     
     
     

@@ -8,49 +8,279 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
-.navbar-nav{
-    padding-top: 47px;
-}
 
-header nav{
-    border-bottom: outset 3px #121F3D;
-}
+.prestadorTitulo{
+    text-align: center;
+    color: white;
+    padding-top: 17px;
+  }
+  .gradiente{
+    background: linear-gradient(90deg, rgba(75,46,238,1) 4%, rgba(34,111,240,1) 24%, rgba(40,157,250,1) 43%, rgba(14,213,211,1) 73%, rgba(53,229,180,1) 93%);
+   }
 
-.pepito{
-    color: #121F3D;
-}
+   
+   @media screen and (min-width: 1200px) {
+    .navbar-nav {
+      padding-top: 47px; }
+    header nav {
+      border-bottom: outset 3px #121F3D; }
+    h2 {
+      text-align: center; }
+      .prestadorForm{
+        margin: 0 auto !important;
+        padding: 0px 140px !important;
+       }
+    footer {
+      border-top: outset 3px #121F3D; }
 
-main form{
-    margin: 62px;
-}
+      .contenedorLogoFooter{
+        padding-top: 112px;
+        
+      }
+    footer div div li a {
+      text-decoration: none;
+      color: black; }
+    
+    
+      iframe {
+        width: 230px !important;
+        height: 230px !important;
+        margin-top: -50px !important;
+        margin-right: 32px !important;
+      float: right;
+      
+    }
 
-footer{
-    border-top: outset 3px #121F3D;
-}
+    .mapaSitio{
+      padding-top: 45px;
+      margin-left: -70px;
+      margin-right: 70px;
+  }
+  
+  .asociate{
+      padding-top: 45px;
+  }
 
-.imagenNombre2{
-    padding-top: 15%;
-    padding-left: 12px;
-}
+    p {
+      text-align: center; }
+    
 
-footer div div li a{
-    text-decoration: none;
-    color: black;
-}
+      .iconosFooter{
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        margin-right: 22px;
 
-.mapaSitio{
-    padding-top: 54px;
-    padding-left: 140px;
-}
 
-footer div div ul{
-    padding-top: 7px;
-    padding-left: 140px;
-}
+    }
 
-iframe{
-    height: 36vh;
-    width: 20vw;
-    margin-top: 13px;
-    margin-left: 97px;
-}
+    .seguinosFooter{
+      padding-left: 670px !important;
+  }
+
+  .mapa1{
+      padding-top: 45px;
+  }
+
+     .ig{
+      font-size: 30px;
+      color: blueviolet;
+     }
+    
+     .fb{
+      font-size: 30px;
+      color: blue;
+     }
+
+     .wpp{
+      font-size: 30px;
+      color: green;
+     }
+
+    }
+  
+  @media screen and (min-width: 992px) {
+    .navbar-nav {
+      padding-top: 47px; }
+    header nav {
+      border-bottom: outset 3px #121F3D; }
+    h2 {
+      text-align: center; }
+
+      .prestadorForm{
+        margin: 0 auto !important;
+        padding: 0px 140px !important;
+       }
+    footer {
+      border-top: outset 3px #121F3D; }
+    footer div div li a {
+      text-decoration: none;
+      color: black; }
+    iframe {
+      height: 20vw;
+      width: 20vw;
+      float: right; }
+      .iconosFooter{
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        margin-right: 22px;
+    }
+
+    .ig{
+        font-size: 30px;
+        color: blueviolet;
+       }
+      
+       .fb{
+        font-size: 30px;
+        color: blue;
+       }
+  
+       .wpp{
+        font-size: 30px;
+        color: green;
+          }
+
+    p {
+      text-align: center; } }
+  
+  @media screen and (min-width: 768px) and (max-width: 992px) {
+    .navbar-nav {
+      padding-top: 47px; }
+    header nav {
+      border-bottom: outset 3px #121F3D; }
+    h2 {
+      text-align: center; }
+      .caja1 a, .caja2 a, .caja3 a{
+        justify-content: center;
+        display: flex;
+      }
+      .prestadorForm{
+        margin: 0 auto !important;
+        padding: 0px 140px !important;
+       }
+    footer {
+      border-top: outset 3px #121F3D; }
+    footer div div li a {
+      text-decoration: none;
+      color: black; }
+    iframe {
+      height: 30vh;
+      width: 40vw;
+      margin-left: 280px; }
+      .iconosFooter{
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        margin-right: 22px;
+    }
+    
+    .ig{
+        font-size: 30px;
+        color: blueviolet;
+       }
+      
+       .fb{
+        font-size: 30px;
+        color: blue;
+       }
+  
+       .wpp{
+        font-size: 30px;
+        color: green;
+          }
+    p {
+      text-align: center; } }
+  
+  @media screen and (min-width: 576px) and (max-width: 768px) {
+    .navbar-nav {
+      padding-top: 47px; }
+    header nav {
+      border-bottom: outset 3px #121F3D; }
+    h2 {
+      text-align: center; }
+    
+    footer {
+      border-top: outset 3px #121F3D; }
+    footer div div li a {
+      text-decoration: none;
+      color: black; }
+    footer div div ul {
+      padding-top: 7px;
+      padding-left: 140px; }
+    iframe {
+      height: 36vh;
+      width: 50vw;
+      margin-left: 166px; }
+      .iconosFooter{
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        margin-right: 137px;
+    }
+    
+    .ig{
+        font-size: 30px;
+        color: blueviolet;
+       }
+      
+       .fb{
+        font-size: 30px;
+        color: blue;
+       }
+  
+       .wpp{
+        font-size: 30px;
+        color: green;
+          }
+    p {
+      text-align: center; } }
+  
+  @media screen and (max-width: 576px) {
+    .navbar-nav {
+      padding-top: 47px; }
+    h2 {
+      text-align: center; }
+    header nav {
+      border-bottom: outset 3px #121F3D; }
+    .imagenNombre1 {
+      width: 90vw; }
+    
+    .imagenNombre2 {
+      width: 90vw; }
+    footer {
+      border-top: outset 3px #121F3D; }
+    footer div div li a {
+      text-decoration: none;
+      color: black; }
+    iframe {
+      height: 36vh;
+      width: 92vw;
+    } 
+    .mapa1 {
+      overflow: hidden; }
+      .iconosFooter{
+        display: flex;
+        list-style: none;
+        justify-content: center;
+    }
+    
+    .ig{
+        font-size: 30px;
+        color: blueviolet;
+       }
+      
+       .fb{
+        font-size: 30px;
+        color: blue;
+       }
+  
+       .wpp{
+        font-size: 30px;
+        color: green;
+          }
+    p {
+      text-align: center; } }
+
+      
